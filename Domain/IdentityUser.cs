@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    //public class ApplicationUser : IdentityUser
-    //{
-    //    public DateTime CreatedOn { get; set; }
-        
-    //}
+    public class ApplicationUser : IdentityUser
+    {
+        public DateTime CreatedOn { get; set; }
+
+    }
 }
