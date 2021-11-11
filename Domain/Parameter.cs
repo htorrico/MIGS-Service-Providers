@@ -10,5 +10,7 @@ namespace Domain
     {
         public int ParameterID { get; set; }
         public string Value { get; set; }
+
+        //public DateTime? CreatedOn { get; set; }
     }
 }
